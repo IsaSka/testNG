@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="C:/Users/isabe/IdeaProjects/testNG(failed)">
+    <groups>
+      <run>
+        <include name="Test"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestCalculator">
+        <methods>
+          <include name="testSubtractingTwoNumbers"/>
+        </methods>
+      </class> <!-- TestCalculator -->
+    </classes>
+  </test> <!-- C:/Users/isabe/IdeaProjects/testNG(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
